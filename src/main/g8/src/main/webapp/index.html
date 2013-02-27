@@ -1,0 +1,12 @@
+<lift:surround with="default" at="content">
+<lift:Menu.builder />
+<lift:menu.item name="UserLogin" />
+	<lift:Util.loggedOut> 
+  	 
+	</lift:Util.loggedOut>
+	<lift:Util.loggedIn>
+  	 <lift:menu.item name="Logout">Log Out
+  	 
+  	 </lift:menu.item>
+   </lift:Util.loggedIn>
+</lift:surround>
