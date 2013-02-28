@@ -10,8 +10,8 @@
 	<packaging>war</packaging>
 	<name>$name$</name>
 	<properties>
-		<scala.version>$scala.Version$</scala.version>
-		<lift.version>$liftweb.Version$</lift.version>
+		<scala.version>$scala_version$</scala.version>
+		<lift.version>$liftweb_version$</lift.version>
 	</properties>
 
 	<dependencies>
