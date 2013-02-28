@@ -11,7 +11,7 @@
 	<name>$name$</name>
 	<properties>
 		<scala.version>$scala.Version$</scala.version>
-		<lift.version>$lift.version$</lift.version>
+		<lift.version>$liftweb.Version$</lift.version>
 	</properties>
 
 	<dependencies>
