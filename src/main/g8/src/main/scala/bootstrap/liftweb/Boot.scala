@@ -1,7 +1,5 @@
 package bootstrap.liftweb
 
-import com.noted.model._
-
 import net.liftweb.common._
 import net.liftweb.http.js.jquery.JQueryArtifacts
 import net.liftweb.http.js.jquery.JqJsCmds
