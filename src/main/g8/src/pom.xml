@@ -10,15 +10,15 @@
 	<packaging>war</packaging>
 	<name>$name$</name>
 	<properties>
-		<scala.version>2.9.1</scala.version>
-		<lift.version>2.4</lift.version>
+		<scala.version>$scala.Version$</scala.version>
+		<lift.version>$lift.version$</lift.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>net.liftweb</groupId>
-			<artifactId>lift-mapper_${scala.version}</artifactId>
-			<version>${lift.version}</version>
+			<artifactId>lift-mapper_\${scala.version}</artifactId>
+			<version>\${lift.version}</version>
 		</dependency>
 <!-- 		<dependency>
 			<groupId>net.liftmodules</groupId>
@@ -45,7 +45,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.scala-tools.testing</groupId>
-			<artifactId>specs_${scala.version}</artifactId>
+			<artifactId>specs_\${scala.version}</artifactId>
 			<version>1.6.9</version>
 			<scope>test</scope>
 		</dependency>
@@ -59,7 +59,7 @@
 		<dependency>
 			<groupId>org.scala-lang</groupId>
 			<artifactId>scala-compiler</artifactId>
-			<version>${scala.version}</version>
+			<version>\${scala.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
