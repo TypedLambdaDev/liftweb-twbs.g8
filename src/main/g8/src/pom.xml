@@ -22,8 +22,8 @@
 		</dependency>
 <!-- 		<dependency>
 			<groupId>net.liftmodules</groupId>
-			<artifactId>lift-jquery-module_${scala.version}</artifactId>
-			<version>${lift.version}-2.0</version>
+			<artifactId>lift-jquery-module_\${scala.version}</artifactId>
+			<version>\${lift.version}-2.0</version>
 		</dependency> -->
 		<dependency>
 			<groupId>com.h2database</groupId>
