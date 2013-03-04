@@ -17,6 +17,11 @@ A [giter8](http://github.com/n8han/giter8) template for [liftweb](http://liftweb
 
     $ cd my-liftweb-app  
 
+Eclipse users can run the following command and import the project.
+    
     $ mvn eclipse:eclipse  
     
-and import the project in eclipse.
+IntelliJ users can run the following command and import the project. 
+
+    $ mvn idea:idea  
+
