@@ -5,4 +5,5 @@ src_managed/
 project/plugins/project/
 .history
 test.bat
-ltb.sublime-project 
+ltb.sublime-project
+ltb.sublime-workspace
