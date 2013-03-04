@@ -11,7 +11,7 @@ A [giter8](http://github.com/n8han/giter8) template for [liftweb](http://liftweb
     template for liftweb app with twitter-bootstrap
     
     package [com.myliftwebapp]:
-    name [My Liftweb App]:
+    name [my-liftweb-app]:
     liftweb_version [2.4]:
     scala_version [2.9.1]:
 
