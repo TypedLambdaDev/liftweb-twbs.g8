@@ -35,7 +35,7 @@ class Boot {
     // where to search snippet
     LiftRules.addToPackages("$package$")
 
-    Schemifier.schemify(true, Schemifier.infoF _, User)
+    //Schemifier.schemify(true, Schemifier.infoF _, User)
 
     // Build SiteMap
     def sitemap() = SiteMap(
@@ -70,7 +70,7 @@ class Boot {
 
     LiftRules.early.append(makeUtf8)
 
-    LiftRules.loggedInTest = Full(() => User.loggedIn_?)
+    //LiftRules.loggedInTest = Full(() => User.loggedIn_?)
 
     S.addAround(DB.buildLoanWrapper)
   }
