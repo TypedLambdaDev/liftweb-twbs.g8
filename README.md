@@ -2,6 +2,7 @@ A [giter8](http://github.com/n8han/giter8) template for [liftweb](http://liftweb
 
 ####Prerequisite
 
+- [Maven](http://maven.apache.org/)
 - [Conscript](https://github.com/n8han/conscript) 
 - [Giter8](https://github.com/n8han/giter8)
 
