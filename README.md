@@ -6,7 +6,7 @@ A [giter8](http://github.com/n8han/giter8) template for [liftweb](http://liftweb
 - [Giter8](https://github.com/n8han/giter8)
 
 ####Usage
-    $ g8 rajeshpg/liftweb-twitter-bootstrap  
+    $ g8 loop-less-code/liftweb-twitter-bootstrap  
 
     template for liftweb app with twitter-bootstrap
     
